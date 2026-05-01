@@ -10,20 +10,19 @@ int main() {
  // Carta 1
  
  char estado1;
- char codigo1[4];
- char cidade1[19];
+ char codigo1[19];
  char cidade1[50];
- int populaçao1;
+ int populacao1;;
  float area1;
  float pib1;
  int pontos;
 
  // Carta 2
 
- char estado2;[8]
+ char estado2;
  char codigo2[17];
  char cidade2[60];
- int população1;
+ int populacao1;
  float area2;
  float pib2;
  int pontos2;
@@ -32,50 +31,50 @@ int main() {
 
  printf("cadastro da Carta1 \n")
 
- printf("Estado (A-H): ");
- scanf(" %c", %estado1 ");
+ printf("estado (A-H): ");
+ scanf("%c", %estado1  ");
 
- printf("Codigo (A019): ";
+ printf("codigo (A019): ";
  scanf("%s", codigo1);
 
- printf("Nome da cidade: ");
- scanf(" %[^\n]", cidade1);
+ printf("nome da cidade: ");
+ scanf("%[^\n]", cidade1);
 
-  printf("Populacao: ");
-  scanf("%d", %populacao1);
+ printf("populacao: ");
+ scanf("%d", %populacao1);
 
-  printf("Area (km2): ");
-  scanf("%f", &area1);
+ printf("Area (km2): ");
+ scanf("%f", &area1);
 
-  printf("PIB: ");
-  scanf("%f", %pib1);
+ printf("PIB: ");
+ scanf("%f", pib1);
 
-  printf("Numero de pontos turisticos: ");
-  scanf("%d", %pontos1);
+ printf("Numero de pontos turisticos: ");
+ scanf("%d", % pontos);
 
 
-  printf("cadastro da Carta2 \n")
+ printf("cadastro da Carta2 \n")
 
-  printf("Estado (A-H): ");
-  scanf(" %c", %estado1 ");
+ printf("estado (A-H): ");
+ scanf("%c", %estado2 ");
 
-  printf("Codigo (A019): ";
-  scanf("%s", codigo1);
+ printf("odigo (A019): ";
+ scanf("%s", codigo2);
 
-  printf("Nome da cidade: ");
-  scanf(" %[^\n]", cidade1);
+ printf("nome da cidade: ");
+ scanf(" %[^\n]", cidade2);
 
-  printf("Populacao: ");
-  scanf("%d", %populacao1);
+ printf("Populacao2: ");
+ scanf("%d", %populacao2);
 
-  printf("Area (km2): ");
-  scanf("%f", &area1);
+ printf("Area (km2): ");
+ scanf("%f", &area2);
 
-  printf("PIB: ");
-  scanf("%f", %pib1);
+ printf("PIB: ");
+ scanf("%f", %pib2);
 
-  printf("Numero de pontos turisticos: ");
-  scanf("%d", %pontos1);
+ printf("Numero de pontos turisticos: ");
+ scanf("%d", %pontos2);
 
   // Área para exibição dos dados da cidade
 
