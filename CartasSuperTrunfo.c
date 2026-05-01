@@ -33,7 +33,7 @@ int main() {
  printf("cadastro da Carta1 \n")
 
  printf("Estado (A-H): ");
- scanf("%c", %estado1 ");
+ scanf(" %c", %estado1 ");
 
  printf("Codigo (A019): ";
  scanf("%s", codigo1);
@@ -54,6 +54,28 @@ int main() {
   scanf("%d", %pontos1);
 
 
+  printf("cadastro da Carta2 \n")
+
+  printf("Estado (A-H): ");
+  scanf(" %c", %estado1 ");
+
+  printf("Codigo (A019): ";
+  scanf("%s", codigo1);
+
+  printf("Nome da cidade: ");
+  scanf(" %[^\n]", cidade1);
+
+  printf("Populacao: ");
+  scanf("%d", %populacao1);
+
+  printf("Area (km2): ");
+  scanf("%f", &area1);
+
+  printf("PIB: ");
+  scanf("%f", %pib1);
+
+  printf("Numero de pontos turisticos: ");
+  scanf("%d", %pontos1);
 
   // Área para exibição dos dados da cidade
 
